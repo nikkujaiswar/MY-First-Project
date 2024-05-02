@@ -1,38 +1,1966 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+ body{
+  background: linear-gradient(#d3b5ce,#dfe8ec ,#FFFFCC)
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+ }
+
+ .row-header{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  position: fixed;
+
+ }
+ .half{
+  display: flex;
+  width: 1100px;
+ 
+  
+ }
+ .half h1{
+  font-size: 21px;
+  background-color: black;
   color: white;
+  height: 42px;
+  font-weight: 600px;
+  font-style: normal;
+  padding: 8px;
+  letter-spacing: 3px;
+  margin-top: 15px;
+ }
+ .tertiary{
+  display: flex;
+
+
+
+  
+  
+ 
+ }
+ #basic-navbar-nav nav{
+  display: flex;
+  font-size: 25px;
+  gap: 42px;
+  font-weight: 500px;
+  color:black;
+  font-style: normal;
+  margin-left: 720px;
+  margin-top: 10px;
+ 
+
+  
+
+ }
+ 
+
+ #basic-navbar-nav nav :hover{
+  background-color: beige;
+  color: black;
+  
+ }
+ 
+
+
+  
+
+
+/* Media Query for Mobile Devices */
+
+ @media  only screen and (max-width:480px){
+  .container{
+    padding: 5px;
+    display: flex;
+   
+   
+
+
+  .half h1{
+    font-size: 24px;
+  background-color:black;
+  color:white;
+  height: 45px;
+  font-weight: 600px;
+  font-style: normal;
+  padding: 7px;
+  letter-spacing: 4px;
+  margin-top: 30px;
+  margin-left: 10px;
+  width: 106px;
+  
+
+  }
+  #basic-navbar-nav nav  {
+    display: inline;
+    
+  
+  }
+
+    #basic-navbar-nav {
+      border: none;
+      margin-left: 170px;
+  
+
+    }
+  
+  
+  
+  .Abouts{
+    display: inline;
+  }
+  .halfs h2{
+    margin-top: 280px;
+    font-size: 38px;
+    margin-left: 70px;
+    color: black;
+    width: 1000px;
+    font-style: normal;
+    font-weight: 700px;
+  }
+  
+  
+
+
+
+  p{
+    display: none;
+  }
+  button{
+    margin-left: 170px;
+    background-color :none;
+    color: white;
+    border-radius: 10px;
+font-style: normal;
+font-weight: 600px;
+margin-top: 17px;
+    
+  }
+  img{
+    margin-left: 70px;
+    width: 300px;
+    height: 380px;
+    margin-top: 90px;
+    
+  }
+  .Aboutss{
+    display: inline;
+    
+  }
+  .halfss{
+    display: inline;
+    margin-top: 60px;
+  }
+  .halfss p{
+    display: flex;
+    margin-left: 30px;
+    font-size: 16px;
+    width: 1200px;
+    color: black;
+    font-style: normal;
+    font-weight: 700px;
+ 
+    
+  }
+  .btn button{
+    background-color: black;
+    color: white;
+  }
+  .mypic img{
+    display: none;
+  }
+
+  
+  
+    .service{
+      display: inline;
+    }
+    .hafs{
+      display: inline;
+    }
+  .hafs h3{
+    display: none;
+  }
+  .Service-cont{
+    display: inline;
+  }
+  .Design{
+    display: block;
+  width:350px;
+  height: 500px;
+  margin-left: 45px;
+  margin-top: 120px;
+  border-radius: 20px;
+  background-color: black;
+  border: 3px solid white;
+  }
+  .Design h1{
+    font-size: 35px;
+    color: white;
+    padding: 10px;
+    margin-left: 59px;
+    margin-top: 5px;
+    font-style: normal;
+  }
+  .Design img{
+    height: 180px;
+    width: 185px;
+    margin-left: 120px;
+    margin-top: 20px;
+  }
+  .Design p{
+    display: flex;
+    color: white;
+    font-size: 18px;
+    margin-top: 10px;
+    padding: 27px;
+    font-style: normal;
+  }
+  .development{
+    display: block;
+    width:350px;
+    height: 500px;
+    margin-left: 45px;
+    margin-top: 120px;
+    border-radius: 20px;
+    background-color: black;
+    border: 3px solid white;
+}
+.development h1{
+  font-size: 30px;
+    color: white;
+    padding: 10px;
+    margin-left: 59px;
+    margin-top: 5px;
+    font-style: normal;
+  
+}
+.development img{
+  height: 170px;
+    width: 175px;
+    margin-left: 120px;
+    margin-top: 20px;
+}
+.development p{
+  display: flex;
+    color: white;
+    font-size: 15px;
+    margin-top: 10px;
+    padding: 27px;
+    font-style: normal;
+}
+ 
+ .Responsives{
+ 
+  display: block;
+  width:350px;
+  height: 500px;
+  margin-left: 45px;
+  margin-top: 120px;
+  border-radius: 20px;
+  background-color: black;
+  border: 3px solid white;
+ }
+
+
+
+
+ .Responsives img{
+  height: 189;
+  width: 175px;
+  margin-left: 120px;
+  margin-top: 20px;
+ }
+ .Responsives h1{
+  font-size: 35px;
+    color: white;
+    padding: 10px;
+    margin-left: 59px;
+    margin-top: 5px;
+    font-style: normal;
+ }
+ .Responsives p{
+  display: flex;
+    color: white;
+    font-size: 15px;
+    margin-top: 10px;
+    padding: 27px;
+    font-style: normal;
+ }
+ .social-media {
+  display: flex;
+ }
+ .skills{
+  display: inline;
+ }
+ .title-skills{
+  display: inline;
+  
+ }
+ .title-skills h3{
+  display: inline;
+ }
+ .skills-cont{
+  display: inline;
+ }
+ .html{
+  display: block;
+  width:350px;
+  height: 500px;
+  margin-left: 45px;
+  margin-top: 120px;
+  border-radius: 20px;
+  background-color: black;
+  border: 3px solid white;
+ }
+
+ .html h1{
+  font-size: 45px;
+    color: white;
+    padding: 10px;
+    margin-left: 59px;
+    margin-top: 5px;
+    font-style: normal;
+   
+ }
+ .html img{
+  height: 155px;
+    width: 150px;
+    margin-left: 120px;
+    margin-top: 20px;
+ }
+ .html p{
+  display: flex;
+    color: white;
+    font-size: 15px;
+    margin-top: 10px;
+    padding: 27px;
+    font-style: normal;
+
+ }
+ .css {
+  display: block;
+  width:350px;
+  height: 500px;
+  margin-left: 45px;
+  margin-top: 110px;
+  border-radius: 20px;
+  background-color: black;
+  border: 3px solid white;
+ }
+ .css h1{
+  font-size: 52px;
+    color: white;
+    padding: 10px;
+    margin-left: 59px;
+    margin-top: 5px;
+    font-style: normal;
+
+ }
+ .css img{
+  height: 155px;
+    width: 150px;
+    margin-left: 120px;
+    margin-top: 20px;
+ }
+ .css p{
+  display: flex;
+    color: white;
+    font-size: 16px;
+    margin-top: 10px;
+    padding: 27px;
+    font-style: normal;
+ }
+ .js{
+  display: block;
+  width:350px;
+  height: 500px;
+  margin-left: 45px;
+  margin-top: 120px;
+  border-radius: 20px;
+  background-color: black;
+  border: 3px solid white;
+ }
+ .js h1{
+  font-size: 40px;
+    color: white;
+    padding: 10px;
+    margin-left: 59px;
+    margin-top: 5px;
+    font-style: normal;
+
+ }
+ .js p{
+  display: flex;
+    color: white;
+    font-size: 15px;
+    margin-top: 10px;
+    padding: 27px;
+    font-style: normal;
+ }
+ .js img{
+  height: 150px;
+    width: 150px;
+    margin-left: 120px;
+    margin-top: 20px;
+ }
+
+.skills-cont2{
+  display: inline;
+ }
+ .react{
+  display: block;
+  width:350px;
+  height: 500px;
+  margin-left: 45px;
+  margin-top: 120px;
+  border-radius: 20px;
+  background-color: black;
+  border: 3px solid white;
+ }
+ .react h1{
+  font-size: 40px;
+    color: white;
+    padding: 10px;
+    margin-left: 59px;
+    margin-top: 5px;
+    font-style: normal;
+   
+ }
+ .react img{
+  height: 155px;
+    width: 150px;
+    margin-left: 120px;
+    margin-top: 20px;
+ }
+ .react p{
+  display: flex;
+    color: white;
+    font-size: 15px;
+    margin-top: 10px;
+    padding: 27px;
+    font-style: normal;
+ }
+ .Figma {
+  display: block;
+  width:350px;
+  height: 500px;
+  margin-left: 45px;
+  margin-top: 110px;
+  border-radius: 20px;
+  background-color:black;
+  border: 3px solid white;
+ }
+ .Figma h1{
+  font-size: 40px;
+    color: white;
+    padding: 10px;
+    margin-left: 59px;
+    margin-top: 5px;
+    font-style: normal;
+ }
+ .Figma img{
+  height: 155px;
+  width: 150px;
+  margin-left: 120px;
+  margin-top: 20px;
+ }
+ .Figma p{
+  display: flex;
+    color: white;
+    font-size: 18px;
+    margin-top: 10px;
+    padding: 27px;
+    font-style: normal;
+ }
+ .boot{
+  display: block;
+  width:350px;
+  height: 500px;
+  margin-left: 45px;
+  margin-top: 110px;
+  border-radius: 20px;
+  background-color: black;
+  border: 3px solid white;
+ }
+ .boot h1{
+  font-size: 40px;
+    color: white;
+    padding: 10px;
+    margin-left: 59px;
+    margin-top: 5px;
+    font-style: normal;
+ }
+ .boot p{
+  display: flex;
+    color: white;
+    font-size: 15px;
+    margin-top: 10px;
+    padding: 27px;
+    font-style: normal;
+ }
+ .boot img{
+  height: 155px;
+  width: 130px;
+  margin-left: 120px;
+  margin-top: 20px;
+ }
+ .icon-box{
+  display: flex;
+ 
+
+}
+.icon-set{
+  display: flex;
+  margin-left: 40px;
 }
 
-.App-link {
-  color: #61dafb;
+ .line hr{
+  display: none;
+ }
+}
+ }
+
+
+
+
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 767px){
+  .container{
+    display: flex;
+    padding: 10px;
+    background-color:beige;
+
+    
+
+  .half h1{
+   font-size: 20px;
+   padding: 8px;
+   border-radius: 9px;
+   margin-left: 8px;
+  height: 42px;
+  color:black;
+  font-weight: 800px;
+  background-color: white;
+  border: 1px solid black;
+
+ 
+
+  }
+  
+  #basic-navbar-nav nav  {
+    display: inline;
+    
+  
+  }
+
+    #basic-navbar-nav {
+      border: none;
+      margin-left: 220px;
+  
+
+    }
+    #basic-navbar-nav nav :hover{
+      background-color:darkgray;
+      color: black;
+      width: 90px;
+      
+     }
+  
+  .Abouts{
+    display: inline;
+  }
+  .halfs{
+    display: inline-block;
+    margin-top: 250px;
+  }
+  .halfs h2{
+    margin-left: 102px;
+   font-weight: 600px;
+  font-size: 42px;
+  
+
+  }
+  p{
+    display:flex;
+    font-size: 22px;
+    margin-left: 92px;
+   font-style: normal;
+   font-weight: 400px;
+   margin-top: 16px;
+
+  }
+  button{
+    margin-left: 190px;
+    font-size: 22px;
+    padding-top: 3px;
+    font-weight: 400px;
+    padding-left: 6px;
+    background-color:none;
+    color: white;
+    width: 130px;
+     height: 45px;
+    font-style: normal;
+    margin-bottom: 7px;
+    margin-top: 15px;
+   
+   
+  }
+  .line hr{
+    display: none;
+  }
+ img{
+  margin-left: 106px;
+  margin-top: 75px;
+  border-radius: 20px;
+  width: 310px;
+ 
+ }
+ .Aboutss{
+  display: inline;
+ 
+ }
+ .halfss {
+  display: inline;
+  
+ }
+ .halfss p{
+  margin-left: 10px;
+  font-size: 21px;
+  font-style: italic;
+  font-weight: 900px;
+  color: black;
+
+  
+ 
+ }
+ .btn button{
+  background-color:red;
+  margin-top: 8px;
+  margin-left: 169px;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400px;
+ }
+ .mypic img{
+  display: inline;
+  margin-left: 58px;
+  margin-top: 35px;
+  width: 418px;
+  height: 510px;
+ 
+ }
+ .skills{
+  display: inline;
+ }
+ .title-skills{
+  display: inline;
+ }
+ .title-skills h3{
+  display: none;
+  
+ }
+ .skills-cont{
+  display: inline;
+ }
+  
+   
+    .html{
+    display: block;
+    margin-left: 64px;
+    height: 500px;
+    width: 400px;
+margin-top: 100px;
+border: 2px solid lightblue;
+background-color: black;
+  }
+  .html img{
+    height: 140px;
+    width: 125px;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+  .html h1{
+    margin-left: 6px;
+    font-size: 50px; 
+    font-style: normal;
+  }
+  .html p{
+    margin-left: 5px;
+    font-size: 13px;
+    font-weight: 600px;
+    margin-top: 15px;
+    font-style: normal;
+  }
+  .css{
+    display: block;
+    margin-left: 64px;
+    height: 500px;
+    width: 400px;
+margin-top: 80px;
+border: 2px solid lightblue;
+background-color: black;
+  }
+  .css img{
+    height: 140px;
+    width: 125px;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+  .css h1{
+    margin-left: 8px;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 600px;
+  }
+  .css p{
+    margin-left: 5px;
+    font-size: 15px;
+    font-weight: 600px;
+    margin-top: 15px;
+    font-style: normal;
+
+  }
+  .js{
+    display: block;
+    margin-left: 64px;
+    height: 500px;
+    width: 400px;
+margin-top: 80px;
+border: 2px solid lightblue;
+background-color: black;
+  }
+  .js img{
+    height: 140px;
+    width: 125px;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+  .js h1{
+    margin-left: 8px;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600px;
+  }
+  .js p{
+    margin-left: 5px;
+    font-size: 15px;
+    font-weight: 600px;
+    margin-top: 15px;
+    font-style: normal;
+
+
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+
+
+.skills-cont2{
+  display: inline;
+ }
+  
+   
+    .react{
+    display: block;
+    margin-left: 64px;
+    height: 500px;
+    width: 400px;
+margin-top: 100px;
+border: 2px solid lightblue;
+background-color: black;
   }
-  to {
-    transform: rotate(360deg);
+  .react img{
+    height: 145px;
+    width: 127px;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+  .react h1{
+    margin-left: 6px;
+    font-size: 42px; 
+    font-style: normal;
+  }
+  .react p{
+    margin-left: 5px;
+    font-size: 14px;
+    font-weight: 600px;
+    margin-top: 15px;
+    font-style: normal;
+  }
+  .Figma{
+    display: block;
+    margin-left: 64px;
+    height: 500px;
+    width: 400px;
+margin-top: 80px;
+border: 2px solid lightblue;
+background-color: black;
+  }
+  .Figma img{
+    height: 140px;
+    width: 125px;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+  .Figma h1{
+    margin-left: 8px;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 600px;
+  }
+  .Figma p{
+    margin-left: 5px;
+    font-size: 17px;
+    font-weight: 600px;
+    margin-top: 15px;
+    font-style: normal;
+
+  }
+  .boot{
+    display: block;
+    margin-left: 64px;
+    height: 500px;
+    width: 400px;
+margin-top: 80px;
+border: 2px solid lightblue;
+background-color: black;
+  }
+  .boot img{
+    height: 140px;
+    width: 125px;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+  .boot h1{
+    margin-left: 8px;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 600px;
+  }
+  .boot p{
+    margin-left: 5px;
+    font-size: 15px;
+    font-weight: 600px;
+    margin-top: 17px;
+    font-style: normal;
+
+
+
+  }
+
+.service{
+  display: inline;
+  margin-top: 70px;
+}
+.hafs{
+  display: inline;
+
+}
+.hafs h3{
+  display: inline;
+  margin-left: 205px;
+
+  font-size: 18px;
+  font-weight: 800px;
+  font-style: normal;
+  background-color: black;
+  width: 200px;
+  color: white;
+  padding: 5px;
+  height: 160px;
+  border-radius: 5px;
+}
+.Service-cont{
+  display: inline;
+}
+.Design{
+  display: block;
+    background-color:black;
+    width:375px;
+    height: 509px;
+    margin-left: 80px;
+    margin-top: 80px;
+    border-radius: 20px;
+    border: 3px solid lightslategray;
+}
+.Design img{
+  height: 230px;
+  width: 225px;
+  margin-left: 55px;
+  margin-top: 5px;
+
+  }
+  .Design h1{
+    font-size: 32px;
+    color:lightslategray;
+    padding: 10px;
+    margin-left: 70px;
+    margin-top: 5px;
+    font-style: normal;
+    font-weight: 400px;
+}
+.Design p{
+    display: flex;
+    color: white;
+    font-size: 15px;
+    margin-top: 10px;
+    padding: 25px;
+    font-weight: 600px;
+    font-style: normal;
+    margin-left: 5px;
+    font-weight: 400px;
+    font-style: normal;
+
+}
+
+.development{
+  display: block;
+    background-color:black;
+    width:375px;
+    height: 509px;
+    margin-left: 80px;
+    margin-top: 80px;
+    border-radius: 20px;
+    border: 3px solid lightslategray;
+}
+.development img{
+  height: 200px;
+  width: 205px;
+  margin-left: 57px;
+  margin-top: 9px;
+
+  }
+  .development h1{
+    font-size: 30px;
+    color:lightslategray;
+    padding: 10px;
+    margin-left: 50px;
+    margin-top: 12px;
+    font-style: normal;
+    font-weight: 400px;
+}
+.development p{
+    display: flex;
+    color: white;
+    font-size: 15px;
+    margin-top: 20px;
+    padding: 25px;
+    font-weight: 600px;
+    font-style: normal;
+    margin-left: 10px;
+    font-weight: 400px;
+    font-style: normal;
+
+
+  }
+  .Responsives{
+    display: block;
+      background-color:black;
+      width:375px;
+      height: 509px;
+      margin-left: 80px;
+      margin-top: 80px;
+      border-radius: 20px;
+      border: 3px solid lightslategray;
+  }
+  .Responsives img{
+    height: 230px;
+    width: 225px;
+    margin-left: 55px;
+    margin-top: 3px;
+  
+    }
+    .Responsives h1{
+      font-size: 32px;
+      color:lightslategray;
+      padding: 10px;
+      margin-left: 70px;
+      margin-top: 5px;
+      font-style: normal;
+      font-weight: 400px;
+  }
+  .Responsives p{
+      display: flex;
+      color: white;
+      font-size: 14px;
+      margin-top: 10px;
+      padding: 25px;
+      font-weight: 600px;
+      font-style: normal;
+      margin-left: 5px;
+      font-weight: 400px;
+      font-style: normal;
+
+
+}
+
+.icon-box{
+  display: flex;
+ 
+
+}
+.icon-set{
+  display: flex;
+  margin-left: 70px;
+}
+
+
   }
 }
+  
+
+
+
+
+
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px){
+ .container{
+  display: flex;
+  padding: 20px;
+background: linear-gradient(#EDF4F2, #EDF4F2);
+
+.half h1{
+  font-size: 22px;
+  padding: 8px;
+  border-radius: 5px;
+  margin-left: 8px;
+ height: 42px;
+ color: black;
+ font-weight: 800px;
+ background-color: white;
+ margin-top: 20px;
+
+ 
+
+ 
+ 
+ }
+
+ #basic-navbar-nav nav  {
+  display: inline;
+  
+
+}
+
+  #basic-navbar-nav {
+    border: none;
+    margin-left: 280px;
+
+  }
+  #basic-navbar-nav nav :hover{
+    background-color:#d3b5ce;
+    color: black;
+    width: 90px;
+    
+   }
+
+ .Abouts{
+  display: inline;
+ }
+ .halfs{
+  display: inline;
+ }
+ .halfs h2{
+  margin-left: 170px;
+   font-weight: 800px;
+  font-size: 52px;
+  color: black;
+  margin-top: 199px;
+ width: 800px;
+ 
+  
+ 
+ }
+ p{
+  display: none;
+ }
+ button{
+  background-color:white;
+  color: red;
+  margin-left: 315px;
+  font-size: 20px;
+  padding: 2px;
+  margin-top: 20px;
+
+ 
+
+  
+ }
+ img {
+  
+  display: flex;
+  margin-top:70px;
+margin-left: 170px;
+  width: 365px;
+ 
+ }
+ .Aboutss{
+  display: inline;
+ }
+ .halfss{
+  display: inline;
+ }
+ .line hr{
+  display: none;
+ }
+.halfss p{
+  display: block;
+  font-size: 26px;
+  color: black;
+  margin-left: 60px ;
+  font-weight: 800px;
+  font-style: normal;
+  margin-top: 5px;
+}
+.btn button{
+  background-color:red;
+  color: white;
+  margin-left: 300px;
+  font-size: 20px;
+  padding: 2px;
+  margin-top: 20px;
+}
+.mypic img{
+  margin-top:50px;
+margin-left: 170px;
+  width: 390px;
+  height: 490px;
+}
+.skills{
+  display: inline;
+
+}
+.title-skills{
+  display: inline;
+}
+.title-skills h3{
+  display: none;
+}
+.skills-cont{
+  display: inline;
+}
+.html{
+  display: block;
+  height: 500px;
+  width: 400px;
+  margin-left: 170px;
+  background-color:gray ;
+  border: 2px solid black;
+  
+}
+.html img{
+  height: 140px;
+    width: 135px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.html h1{
+  margin-left: 6px;
+    font-size: 50px; 
+    font-style: normal;
+    color: black;
+    font-weight: 800px;
+}
+.html p{
+  margin-left: 5px;
+    font-size: 16px;
+    font-weight: 800px;
+    margin-top: 18px;
+    font-style: normal;
+    color:white;
+    display: block;
+}
+.css{
+  display: block;
+  height: 500px;
+  width: 400px;
+  margin-left: 170px;
+  background-color:gray ;
+  border: 2px solid black;
+  margin-top: 5px;
+  
+}
+.css img{
+  height: 140px;
+    width: 135px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.css h1{
+  margin-left: 6px;
+    font-size: 50px; 
+    font-style: normal;
+    color: black;
+    font-weight: 800px;
+}
+.css p{
+  margin-left: 5px;
+    font-size: 17px;
+    font-weight: 800px;
+    margin-top: 18px;
+    font-style: normal;
+    color:white;
+    display: block;
+}
+
+.js{
+  display: block;
+  height: 500px;
+  width: 400px;
+  margin-left: 170px;
+  background-color:gray ;
+  border: 2px solid black;
+  margin-top: 5px;
+  
+}
+.js img{
+  height: 130px;
+    width: 125px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.js h1{
+  margin-left: 6px;
+    font-size: 40px; 
+    font-style: normal;
+    color: black;
+    font-weight: 800px;
+}
+.js p{
+  margin-left: 5px;
+    font-size: 17px;
+    font-weight: 800px;
+    margin-top: 20px;
+    font-style: normal;
+    color:white;
+    display: block;
+}
+
+
+.skills-cont2{
+  display: inline;
+}
+.react{
+  display: block;
+  height: 500px;
+  width: 400px;
+  margin-left: 170px;
+  background-color:gray ;
+  border: 2px solid black;
+  margin-top: 60px;
+  
+}
+.react img{
+  height: 140px;
+    width: 135px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.react h1{
+  margin-left: 6px;
+    font-size: 40px; 
+    font-style: normal;
+    color: black;
+    font-weight: 800px;
+}
+.react p{
+  margin-left: 5px;
+    font-size: 13px;
+    font-weight: 800px;
+    margin-top: 18px;
+    font-style: normal;
+    color:white;
+    display: block;
+}
+.Figma{
+  display: block;
+  height: 500px;
+  width: 400px;
+  margin-left: 170px;
+  background-color:gray ;
+  border: 2px solid black;
+  
+}
+.Figma img{
+  height: 140px;
+    width: 135px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.Figma h1{
+  margin-left: 6px;
+    font-size: 40px; 
+    font-style: normal;
+    color: black;
+    font-weight: 800px;
+}
+.Figma p{
+  margin-left: 5px;
+    font-size: 15px;
+    font-weight: 800px;
+    margin-top: 18px;
+    font-style: normal;
+    color:white;
+    display: block;
+}
+
+.boot{
+  display: block;
+  height: 500px;
+  width: 400px;
+  margin-left: 170px;
+  background-color:gray ;
+  border: 2px solid black;
+  
+}
+.boot img{
+  height: 130px;
+    width: 120px;
+    margin-left: 10px;
+    margin-top: 6px;
+}
+.boot h1{
+  margin-left: 6px;
+    font-size: 40px; 
+    font-style: normal;
+    color: black;
+    font-weight: 800px;
+}
+.boot p{
+  margin-left: 5px;
+    font-size: 15px;
+    font-weight: 800px;
+    margin-top: 25x;
+    font-style: normal;
+    color:white;
+    display: block;
+}
+.service{
+  display: inline;
+}
+.hafs{
+  display: inline;
+}
+
+.hafs h3{
+  display: none;
+}
+.Service-cont{
+  display: inline;
+}
+.Design{
+  display: block;
+  background-color: black;
+  margin-left: 170px;
+  margin-top: 139px;
+  border: 3px solid white;
+  width:375px;
+    height: 509px;
+    
+    
+}
+.Design img{
+  height: 250px;
+  width: 230px;
+  margin-left: 55px;
+  margin-top: 3px;
+
+}
+.Design h1{
+  font-size: 32px;
+    color:white;
+    padding: 10px;
+    margin-left: 72px;
+    margin-top: 5px;
+    font-style: normal;
+    font-weight: 400px;
+}
+
+.Design p{
+  display: flex;
+    color: white;
+    font-size: 15px;
+    margin-top: 10px;
+    padding: 25px;
+    font-weight: 800px;
+    font-style: normal;
+    margin-left: 5px;
+    font-weight: 400px;
+    font-style: normal;
+}
+.development{
+  display: block;
+  background-color: black;
+  margin-left: 170px;
+  margin-top: 139px;
+  border: 3px solid white;
+  width:375px;
+    height: 509px;
+    
+    
+}
+.development img{
+  height: 180px;
+  width: 230px;
+  margin-left: 55px;
+  margin-top: 3px;
+
+}
+.development h1{
+  font-size: 32px;
+    color:white;
+    padding: 10px;
+    margin-left: 50px;
+    margin-top: 10px;
+    font-style: normal;
+    font-weight: 400px;
+}
+
+.development p{
+  display: flex;
+    color: white;
+    font-size: 15px;
+    margin-top: 20px;
+    padding: 25px;
+    font-weight: 800px;
+    font-style: normal;
+    margin-left: 5px;
+    font-weight: 400px;
+    font-style: normal;
+}
+
+
+.Responsives{
+  display: block;
+  background-color: black;
+  margin-left: 170px;
+  margin-top: 139px;
+  border: 3px solid white;
+  width:375px;
+    height: 509px;
+    
+    
+}
+.Responsives img{
+  height: 250px;
+  width: 230px;
+  margin-left: 55px;
+  margin-top: 3px;
+
+}
+.Responsives h1{
+  font-size: 32px;
+    color:white;
+    padding: 10px;
+    margin-left: 72px;
+    margin-top: 5px;
+    font-style: normal;
+    font-weight: 400px;
+}
+
+.Responsives p{
+  display: flex;
+    color: white;
+    font-size: 15px;
+    margin-top: 10px;
+    padding: 25px;
+    font-weight: 800px;
+    font-style: normal;
+    margin-left: 5px;
+    font-weight: 400px;
+    font-style: normal;
+
+
+
+}
+.icon{
+  display: flex;
+}
+.icon-set{
+  display: flex;
+  margin-left: 170px;
+}
+ }
+
+}
+
+
+
+
+
+
+
+
+
+ .Abouts{
+ display: flex;
+ 
+ }
+.halfs{
+  display: inline;
+  width: 500px;
+  margin-top: 300px;
+}
+ .halfs h2{
+  font-size: 38px;
+  color:    #2e4053;
+ font-weight: 700px;
+ font-style: normal;
+ 
+
+}
+p{
+  color: black;
+  font-size: 27px;
+  font-weight: 500px;
+  font-style: normal;
+  padding: 5px;
+  
+}
+
+ img{
+  height: 440px;
+  margin-top: 210px;
+  margin-left: 400px;
+  display: block;
+}
+button{
+  background-color:red;
+  color: white;
+  font-weight: 500px;
+  font-style: normal;
+  height: 42px;
+  width: 100px;
+  padding: 8px;
+  font-size: 20px;
+  
+}
+
+
+.Aboutss{
+  display: flex;
+  margin-top: 190px;
+  margin-bottom: 10px;
+}
+.halfss{
+  display: inline;
+}
+ .halfss p{
+  font-size: 28px;
+  color: black;
+  font-weight: 600px;
+  width: 700px;
+  padding-top: 200px;
+  font-style: normal;
+ 
+  
+}
+.btn button{
+  background-color:blue;
+  color: white;
+  margin-top: 1px;
+}
+.mypic img{
+ margin-left: 215px;
+ margin-top: 110px;
+ 
+ 
+}
+
+
+
+
+.line hr{
+  width: 1200px;
+  margin-left: 80px;
+  margin-top: 200px;
+  opacity: 0.1;
+}
+
+ .skills{
+  display: flex;
+ }
+ .title-skills{
+  display: inline;
+ }
+ .title-skills h3{
+  
+
+  margin-left: 570px;
+  font-size: 47px;
+  font-style: normal;
+  font-weight: 700px;
+  color: black;
+  margin-top: 300px;
+
+ }
+ .skills-cont{
+  display: flex;
+  width: 600px;
+  
+ 
+ }
+ .html{
+  display: block;
+  border: 2px solid white;
+  height: 460px;
+  width: 470px;
+  background-color: black;
+  border-radius: 10px;
+  
+  margin-top: 365px;
+  margin-left: 80px;
+  
+  
+ }
+ 
+ .html h1{
+  color: white;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800px;
+  margin-left: 2px;
+  padding: 12px;
+  margin-top: 19px;
+ }
+
+.html img{
+  height: 120px;
+  margin-left: 199px;
+  margin-top: 12px;
+ 
+ 
+  
+  
+}
+.html p{
+  color: white;
+  font-size: 15px;
+  font-weight: 300px;
+  font-style: normal;
+  margin-top: 25px;
+  padding: 15px;
+}
+.css{
+  display: block;
+  border: 2px solid white;
+  height: 460px;
+  width: 470px;
+  background-color: black;
+  border-radius: 10px;
+  margin-top: 365px;
+  margin-left: 80px;
+}
+.css h1{
+  color: white;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800px;
+  margin-left: 2px;
+  padding: 12px;
+  margin-top: 19px;
+}
+.css img{
+
+height: 120px;
+  margin-left: 199px;
+  margin-top: 12px;
+}
+.css p{
+  color: white;
+  font-size: 14px;
+  font-weight: 300px;
+  font-style: normal;
+  margin-top: 25px;
+  padding: 16px;
+}
+.js{
+
+display: block;
+  border: 2px solid white;
+  height: 460px;
+  width: 470px;
+  background-color: black;
+  border-radius: 10px;
+  margin-top: 365px;
+  margin-left: 84px;
+}
+.js h1{
+  color: white;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 800px;
+  margin-left: 2px;
+  padding: 12px;
+  margin-top: 19px;
+}
+.js img{
+  margin-left: 199px;
+  height: 120px;
+  margin-top: 12px;
+
+}
+.js p{
+  color: white;
+  font-size: 15px;
+  font-weight: 300px;
+  font-style: normal;
+  margin-top: 27px;
+  padding: 15px;
+}
+.skills-cont2{
+  display: flex;
+  width: 600px;
+}
+.react{
+  display: block;
+  border: 2px solid white;
+  height: 460px;
+  width: 470px;
+  background-color: black;
+  border-radius: 10px;
+  
+  margin-top: 10px;
+  margin-left: 80px;
+}
+.react h1{
+  color: white;
+  font-size: 33px;
+  font-style: normal;
+  font-weight: 800px;
+  margin-left: 2px;
+  padding: 12px;
+  margin-top: 19px;
+}
+.react img{
+  margin-left: 199px;
+  height: 118px;
+  margin-top: 12px;
+}
+.react p{
+
+color: white;
+  font-size: 15px;
+  font-weight: 300px;
+  font-style: normal;
+  margin-top: 25px;
+  padding: 15px;
+}
+.Figma{
+  display: block;
+  border: 2px solid white;
+  height: 460px;
+  width: 470px;
+  background-color: black;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-left: 80px;
+}
+.Figma h1{
+  color: white;
+  font-size: 33px;
+  font-style: normal;
+  font-weight: 800px;
+  margin-left: 2px;
+  padding: 12px;
+  margin-top: 19px;
+}
+.Figma img{
+  margin-left: 199px;
+  height: 118px;
+  margin-top: 12px;
+}
+.Figma p{
+  color: white;
+  font-size: 16px;
+  font-weight: 300px;
+  font-style: normal;
+  margin-top: 20px;
+  padding: 16px;
+}
+.boot{
+  display: block;
+  border: 2px solid white;
+  height: 460px;
+  width: 470px;
+  background-color: black;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-left: 90px;
+}
+.boot h1{
+  color: white;
+  font-size: 33px;
+  font-style: normal;
+  font-weight: 800px;
+  margin-left: 2px;
+  padding: 12px;
+  margin-top: 19px;
+}
+.boot p{
+  color: white;
+  font-size: 15px;
+  font-weight: 300px;
+  font-style: normal;
+  margin-top: 20px;
+  padding: 16px;
+}
+.boot img{
+  margin-left: 199px;
+  height: 117px;
+  margin-top: 10px;
+  width: 105px;
+}
+.service{
+  display: flex;
+ 
+ 
+  
+}
+.hafs h3{
+  margin-left: 558px;
+  font-size: 47px;
+  font-style: normal;
+  font-weight: 700px;
+  color: black;
+  margin-top: 300px;
+  
+}
+.Service-cont{
+  display: flex;
+  width: 900px;
+ 
+  
+  
+}
+.Design{
+  display: block;
+  border: 3px solid black;
+  width: 390px;
+  height: 490px;
+  border-radius: 9px;
+  margin-top: 70px;
+  background-color:antiquewhite;
+  font-style: normal;
+  padding: 12px;
+  color: black;
+  font-weight: 700px;
+  margin-top: none;;
+  margin-left: 4px;
+
+ 
+}
+.Design h1{
+  color: black;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 800px;
+  margin-left: 2px;
+  padding: 12px;
+}
+.Design img{
+  height: 250px;
+  margin-left: 90px;
+  margin-top: 2px;
+  text-align: center;
+
+ 
+}
+.Design p{
+  font-size: 18px;
+  font-style: normal;
+  padding: 12px;
+  color: black;
+  font-weight: 700px;
+  margin-top: none;
+ 
+}
+
+.development{
+  display: block;
+  border: 3px solid black;
+  height: 495px;
+  width: 9000px;
+  border-radius: 9px;
+  margin-top: 70px;
+  background-color:antiquewhite ;
+  margin-left: 60px;
+ 
+}
+.development h1{
+  color: black;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 800px;
+  margin-left: 12px;
+ 
+  margin-top: 20px;
+}
+
+
+.development img{
+  height: 240px;
+  margin-left: 90px;
+  margin-top: 15px;
+  margin-right: 2px;
+}
+
+.development p{
+
+font-size: 18px;
+  font-style: normal;
+  margin-left: 10px;
+  color: black;
+  font-weight: 700px;
+  margin-top: 25px;
+}
+
+.Responsives{
+  display: block;
+  border: 3px solid black;
+  height: 495px;
+  width: 4000px;
+  border-radius: 9px;
+  margin-top: 70px;
+  background-color:antiquewhite ;
+  margin-left: 70px;
+ 
+}
+.Responsives h1{
+
+color: black;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 800px;
+  margin-left: 12px;
+ 
+  margin-top: 20px;
+}
+
+.Responsives img{
+
+height: 180px;
+  margin-left: 90px;
+  margin-top: 15px;
+  margin-right: 2px;
+}
+.Responsives p{
+
+font-size: 16px;
+  font-style: normal;
+  margin-left: 10px;
+  color: black;
+  font-weight: 700px;
+  margin-top: 20px;
+}
+.icon{
+  display: flex;
+}
+.icon-set{
+  display: flex;
+  margin-left: 500px;
+  font-size: 33px;
+  gap: 54px;
+margin-top: 180px;
+padding: 40px;
+}
+
